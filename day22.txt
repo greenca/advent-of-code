@@ -1,0 +1,215 @@
+Magic Missile costs 53 mana. It instantly does 4 damage.
+Drain costs 73 mana. It instantly does 2 damage and heals you for 2 hit points.
+Shield costs 113 mana. It starts an effect that lasts for 6 turns. While it is active, your armor is increased by 7.
+Poison costs 173 mana. It starts an effect that lasts for 6 turns. At the start of each turn while it is active, it deals the boss 3 damage.
+Recharge costs 229 mana. It starts an effect that lasts for 5 turns. At the start of each turn while it is active, it gives you 101 new mana.
+
+You start with 50 hit points and 500 mana points.
+
+Hit Points: 55
+Damage: 8
+
+Winners that cost 900:
+['Poison', 'Recharge', 'Shield', 'Magic Missile', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (49, 42), (46, 34), (43, 34), (40, 33), (33, 33), (30, 32), (30, 32), (27, 31), (20, 31), (17, 30), (10, 30), (7, 22)]
+
+Player
+55, 50
+Poison 6
+
+Boss
+55, 50
+Poison -> 52, 5 remain
+Attack -> 42 hit
+
+Player
+52, 42
+Poison -> 49, 4 remain
+Recharge
+
+Boss
+49, 42
+Poison -> 46, 3 remain
+Attack -> 34 hit
+
+Player
+46, 34
+Poison -> 43, 2 remain
+Shield 6
+
+Boss
+43, 34
+Poison -> 40, 1 remain
+Shield 5 remain
+Attack -> 33 hit
+
+Player 
+40, 33
+Poison -> 37, 0 remain
+Shield 4 remain
+Magic Missile -> 33
+
+Boss
+33, 33
+Shield 3 remain
+Attack -> 32
+
+Player
+33, 32
+Shield 2 remain
+Poison 6
+
+Boss
+33, 32
+Shield 1 remain
+Poison -> 30, 5
+Attack -> 31
+
+Player
+30, 31
+Shield 0 remain
+Poison -> 27, 4
+Magic Missile -> 23
+
+Boss
+23, 31
+Poison -> 20, 3
+Attack -> 23
+
+Player 
+20, 23
+Poison -> 17, 2
+Magic Missile -> 13
+
+Boss
+13, 23
+Poison -> 10, 1
+Attack -> 15
+
+Player
+10, 15
+Poison -> 7, 0
+Magic Missile -> 3
+
+Boss
+3, 15
+Attack -> 7
+
+
+['Poison', 'Recharge', 'Shield', 'Magic Missile', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (49, 42), (46, 34), (43, 34), (40, 33), (33, 33), (30, 32), (30, 32), (27, 31), (20, 31), (17, 30), (10, 30), (7, 22)]
+['Poison', 'Magic Missile', 'Recharge', 'Shield', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (45, 42), (42, 34), (39, 34), (36, 26), (33, 26), (30, 25), (30, 25), (27, 24), (20, 24), (17, 23), (10, 23), (7, 22)]
+['Poison', 'Recharge', 'Magic Missile', 'Magic Missile', 'Poison', 'Shield', 'Magic Missile', 'Magic Missile']
+8 0
+[(55, 50), (55, 50), (52, 42), (49, 42), (46, 34), (39, 34), (36, 26), (29, 26), (26, 18), (26, 18), (23, 10), (20, 10), (17, 9), (10, 9), (7, 8)]
+['Poison', 'Magic Missile', 'Recharge', 'Shield', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (45, 42), (42, 34), (39, 34), (36, 26), (33, 26), (30, 25), (30, 25), (27, 24), (20, 24), (17, 23), (10, 23), (7, 22)]
+
+
+
+
+Winners that cost 900:
+['Poison', 'Recharge', 'Shield', 'Magic Missile', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (49, 42), (46, 34), (43, 34), (40, 33), (33, 33), (30, 32), (30, 32), (27, 31), (20, 31), (17, 30), (10, 30), (7, 22)]
+
+Player
+55, 50
+Poison 6
+
+Boss
+55, 50
+Poison -> 52, 5 remain
+Attack -> 42 hit
+
+Player
+52, 42
+Poison -> 49, 4 remain
+Recharge
+
+Boss
+49, 42
+Poison -> 46, 3 remain
+Attack -> 34 hit
+
+Player
+46, 34
+Poison -> 43, 2 remain
+Shield 6
+
+Boss
+43, 34
+Poison -> 40, 1 remain
+Shield 5 remain
+Attack -> 33 hit
+
+Player 
+40, 33
+Poison -> 37, 0 remain
+Shield 4 remain
+Magic Missile -> 33
+
+Boss
+33, 33
+Shield 3 remain
+Attack -> 32
+
+Player
+33, 32
+Shield 2 remain
+Poison 6
+
+Boss
+33, 32
+Shield 1 remain
+Poison -> 30, 5
+Attack -> 31
+
+Player
+30, 31
+Shield 0 remain
+Poison -> 27, 4
+Magic Missile -> 23
+
+Boss
+23, 31
+Poison -> 20, 3
+Attack -> 23
+
+Player 
+20, 23
+Poison -> 17, 2
+Magic Missile -> 13
+
+Boss
+13, 23
+Poison -> 10, 1
+Attack -> 15
+
+Player
+10, 15
+Poison -> 7, 0
+Magic Missile -> 3
+
+Boss
+3, 15
+Attack -> 7
+
+
+['Poison', 'Recharge', 'Shield', 'Magic Missile', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (49, 42), (46, 34), (43, 34), (40, 33), (33, 33), (30, 32), (30, 32), (27, 31), (20, 31), (17, 30), (10, 30), (7, 22)]
+['Poison', 'Magic Missile', 'Recharge', 'Shield', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (45, 42), (42, 34), (39, 34), (36, 26), (33, 26), (30, 25), (30, 25), (27, 24), (20, 24), (17, 23), (10, 23), (7, 22)]
+['Poison', 'Recharge', 'Magic Missile', 'Magic Missile', 'Poison', 'Shield', 'Magic Missile', 'Magic Missile']
+8 0
+[(55, 50), (55, 50), (52, 42), (49, 42), (46, 34), (39, 34), (36, 26), (29, 26), (26, 18), (26, 18), (23, 10), (20, 10), (17, 9), (10, 9), (7, 8)]
+['Poison', 'Magic Missile', 'Recharge', 'Shield', 'Poison', 'Magic Missile', 'Magic Missile', 'Magic Missile']
+22 0
+[(55, 50), (55, 50), (52, 42), (45, 42), (42, 34), (39, 34), (36, 26), (33, 26), (30, 25), (30, 25), (27, 24), (20, 24), (17, 23), (10, 23), (7, 22)]
